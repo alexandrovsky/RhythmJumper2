@@ -12,7 +12,7 @@ public class LevelGenerator : MonoBehaviour {
 
 
 	public float beatStep = 4;
-	public int numOfPlatforms;
+	public float [] platformBeats;
 	public GameObject platformTemplate;
 	public GameObject triggerTemplate;
 
@@ -25,7 +25,7 @@ public class LevelGenerator : MonoBehaviour {
 	void Start () {
 		beatCounter = GameObject.Find("AudioManager").GetComponent<BeatCounter>();
 		beatObservers = new List<GameObject>();
-		GenerateLevelQuaters();
+		GenerateLevel();
 
 		foreach(GameObject go in beatCounter.observers){
 			beatObservers.Add(go);	
@@ -34,14 +34,14 @@ public class LevelGenerator : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void GenerateLevelQuaters () {
+	void GenerateLevel () {
 	
 		platforms = new List<GameObject>();
-		for(int i = 0; i < numOfPlatforms; i++){
+		for(int i = 0; i < platformBeats.Length; i++){
 			GameObject platform = GameObject.Instantiate(platformTemplate);
 
 			platform.transform.parent = transform;
-			Vector3 pos = new Vector3(stepWidth * i, 0, 0);
+			Vector3 pos = new Vector3(stepWidth * platformBeats[i], 0, 0);
 			platform.transform.position = pos;
 			beatObservers.Add(platform);
 

@@ -3,30 +3,30 @@ using System.Collections;
 
 public class PlayerMove : MonoBehaviour {
 
-//	public float speed = 6.0F;
-//	public float jumpSpeed = 8.0F;
-//	public float gravity = 20.0F;
-	private Vector3 moveDirection = Vector3.zero;
+	CharacterController controller;
+	Vector3 moveDirection = Vector3.zero;
 
-	LevelGenerator lg;
+	LevelGenerator levelGenerator;
+	AudioSource syncAudioSrc;
+
 	void Start(){
-		lg = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
+		levelGenerator = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
+		syncAudioSrc = GameObject.Find("AudioManager").GetComponent<AudioSource>();
+		controller = GetComponent<CharacterController>();
 	}
 
 	void Update() {
-		
-		CharacterController controller = GetComponent<CharacterController>();
+
+
 		if (controller.isGrounded) {
 			moveDirection.y = 0;
-//			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-//			moveDirection = transform.TransformDirection(moveDirection);
-//			moveDirection *= speed;
 			if (Input.GetButton("Jump"))
-				moveDirection.y = lg.stepWidth*4; // jumpSpeed;
+				moveDirection.y = levelGenerator.stepWidth*3; // jumpSpeed;
 		} else{
-			moveDirection.y -= lg.stepWidth*8 * Time.deltaTime;
+			
+			moveDirection.y -= levelGenerator.stepWidth*6 * Time.deltaTime; // fall speed
 		}
-
 		controller.Move(moveDirection * Time.deltaTime);
 	}
+
 }
