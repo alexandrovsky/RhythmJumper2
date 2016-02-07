@@ -43,11 +43,11 @@ public class PlayerMove : MonoBehaviour {
 		Debug.DrawLine(transform.position, currentPlatform.position, Color.green);
 		int idx = levelGenerator.platforms.IndexOf(currentPlatform.gameObject);
 		if(idx > -1){
-			Debug.Log(idx);
-			if(idx+1  > levelGenerator.platforms.Count) {
+			if(idx  >= levelGenerator.platforms.Count-1) {
 				return; // return if we are on the last platform
 			}
 			nextPlatform = levelGenerator.platforms[idx+1].transform;
+
 
 			Debug.DrawLine(transform.position, nextPlatform.position, Color.red);
 
@@ -58,31 +58,52 @@ public class PlayerMove : MonoBehaviour {
 			distanceToNextPlaform = Vector3.Distance(p, nextPlatform.position);
 			computedJumpHeight = distanceToNextPlaform;
 
-			Vector3 centerBetweenPlatforms = (currentPlatform.transform.position + nextPlatform.transform.position) / 2;
+
+
+			Vector3 offset =  new Vector3(0, levelGenerator.platformHeight + transform.localScale.y, 0);
+
+			Vector3 p0 = currentPlatform.transform.position + offset;
+			Vector3 p2 = nextPlatform.transform.position + offset;
+
+			Vector3 centerBetweenPlatforms = (p0 + p2) / 2;
 			Vector3 centerTop = centerBetweenPlatforms + Vector3.up * computedJumpHeight;
-			Debug.DrawLine(centerBetweenPlatforms, centerTop, Color.cyan);
-			Debug.DrawLine(currentPlatform.transform.position, centerTop, Color.green);
-			Debug.DrawLine(nextPlatform.transform.position, centerTop, Color.red);
+
+			Vector3 p1 = centerTop + offset;
+
+
+			Debug.DrawLine(centerBetweenPlatforms, p1, Color.cyan);
+			Debug.DrawLine(p0, p1, Color.green);
+			Debug.DrawLine(p2, p1, Color.red);
+
 
 			Vector3 newPos = transform.forward;
 
-			if(transform.position.x < centerBetweenPlatforms.x) {
+//			if(transform.position.x < centerBetweenPlatforms.x) {
+//
+//				float range = centerTop.x - currentPlatform.position.x;
+//				float t = (transform.position.x - currentPlatform.position.x) / range;
+//				Debug.Log("T:" + t);
+//				newPos.y = Mathf.Lerp(currentPlatform.position.y, centerTop.y, t);
+//			}else {
+//				float range = nextPlatform.position.x - centerTop.x;
+//				float t = (transform.position.x - centerTop.x) / range;
+//
+//				newPos.y = Mathf.Lerp(centerTop.y, nextPlatform.position.y, t);
+//			}
+//			newPos.y += startPosY; 
 
-				float range = centerTop.x - currentPlatform.position.x;
-				float t = (transform.position.x - currentPlatform.position.x) / range;
-				Debug.Log("T:" + t);
-				newPos.y = Mathf.Lerp(currentPlatform.position.y, centerTop.y, t);
-//				transform.position = Vector3.MoveTowards(p, centerTop, Vector3.Distance(p, centerTop) * Time.deltaTime);
-			}else {
-				float range = nextPlatform.position.x - centerTop.x;
-				float t = (transform.position.x - centerTop.x) / range;
 
-				newPos.y = Mathf.Lerp(centerTop.y, nextPlatform.position.y, t);
-			}
-			newPos.y += startPosY; 
+			float range = nextPlatform.position.x - currentPlatform.position.x;
+			float t = (transform.position.x - currentPlatform.position.x) / range;
+
+			newPos.y = (1-t) * (p0.y)+ 2 * (1-t)*t*(p1.y) + t*t * (p2.y);
+
+
 
 			transform.position = newPos;
 		}
+
+
 
 
 

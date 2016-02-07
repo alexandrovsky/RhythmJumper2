@@ -15,6 +15,12 @@ public class LevelGenerator : MonoBehaviour {
 		}
 	}
 
+	public float platformHeight {
+		get {
+			return platformTemplate.transform.localScale.y;
+		}
+	}
+
 
 	public float beatStep = 4;
 	public float [] platformBeats;
