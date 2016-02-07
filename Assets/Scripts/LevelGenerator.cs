@@ -6,7 +6,12 @@ public class LevelGenerator : MonoBehaviour {
 
 	public float stepWidth { // width of a single beat
 		get{
-			return beatStep * platformTemplate.transform.localScale.x * beatStep;
+			return beatStep * platformWidth * beatStep;
+		}
+	}
+	public float platformWidth {
+		get {
+			return platformTemplate.transform.localScale.x;
 		}
 	}
 
@@ -18,7 +23,7 @@ public class LevelGenerator : MonoBehaviour {
 
 	BeatCounter beatCounter;
 
-	List<GameObject> platforms;
+	public List<GameObject> platforms;
 	List<GameObject> beatObservers;
 
 
@@ -44,6 +49,7 @@ public class LevelGenerator : MonoBehaviour {
 			Vector3 pos = new Vector3(stepWidth * platformBeats[i], 0, 0);
 			platform.transform.position = pos;
 			beatObservers.Add(platform);
+			platforms.Add(platform);
 
 //			// trigger
 //			GameObject trigger = GameObject.Instantiate(triggerTemplate);
