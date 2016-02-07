@@ -45,6 +45,7 @@ public class LevelGenerator : MonoBehaviour {
 			platform.transform.position = pos;
 			beatObservers.Add(platform);
 
+//			// trigger
 //			GameObject trigger = GameObject.Instantiate(triggerTemplate);
 //			trigger.transform.position = platform.transform.position
 //				+ new Vector3(platform.transform.localScale.x * 0.5f,

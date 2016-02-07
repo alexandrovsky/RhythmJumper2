@@ -7,24 +7,26 @@ public class PlayerMove : MonoBehaviour {
 	Vector3 moveDirection = Vector3.zero;
 
 	LevelGenerator levelGenerator;
-	AudioSource syncAudioSrc;
+	float bounceHeight;
+	float jumpHeight;
 
 	void Start(){
 		levelGenerator = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
-		syncAudioSrc = GameObject.Find("AudioManager").GetComponent<AudioSource>();
 		controller = GetComponent<CharacterController>();
+		bounceHeight = 0; // levelGenerator.stepWidth/2; // bounce height 1/16th;
+		jumpHeight = levelGenerator.stepWidth;
 	}
 
 	void Update() {
 
 
-		if (controller.isGrounded) {
-			moveDirection.y = 0;
-			if (Input.GetButton("Jump"))
-				moveDirection.y = levelGenerator.stepWidth*3; // jumpSpeed;
-		} else{
-			
-			moveDirection.y -= levelGenerator.stepWidth*6 * Time.deltaTime; // fall speed
+		if(controller.isGrounded){
+			moveDirection.y = bounceHeight;
+			if (Input.GetButton("Jump")){
+				moveDirection.y = jumpHeight * 2;
+			}
+		}else{
+			moveDirection.y -= jumpHeight*4 * Time.deltaTime; // fall speed	
 		}
 		controller.Move(moveDirection * Time.deltaTime);
 	}

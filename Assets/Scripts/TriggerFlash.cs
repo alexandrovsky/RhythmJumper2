@@ -16,6 +16,7 @@ public class TriggerFlash : MonoBehaviour {
 
 
 	void OnTriggerEnter(Collider other) {
+		
 		ren.material.color = Color.red;
 		StartCoroutine(FlashMaterial());
 	}
