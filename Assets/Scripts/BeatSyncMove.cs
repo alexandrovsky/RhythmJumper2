@@ -5,6 +5,7 @@ using SynchronizerData;
 public class BeatSyncMove : MonoBehaviour {
 
 	private BeatObserver beatObserver;
+	private BeatCounter counter;
 	private BeatSynchronizer syncronizer;
 	private Animator animator;
 	private BeatSyncMoveBehaviour moveBehaviour;
@@ -14,6 +15,7 @@ public class BeatSyncMove : MonoBehaviour {
 		beatObserver = GetComponent<BeatObserver>();
 		syncronizer = GameObject.Find("AudioManager").GetComponent<BeatSynchronizer>();
 		syncAudioSrc = GameObject.Find("AudioManager").GetComponent<AudioSource>();
+		counter = GameObject.Find("AudioManager").GetComponent<BeatCounter>();
 		levelGenerator = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
 		animator = GetComponent<Animator>();
 		moveBehaviour = animator.GetBehaviour<BeatSyncMoveBehaviour>();
@@ -22,8 +24,8 @@ public class BeatSyncMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		transform.position = new Vector3( syncAudioSrc.time * levelGenerator.stepWidth, 
+		float t =  syncAudioSrc.time * syncronizer.bpm/60;
+		transform.position = new Vector3( t * levelGenerator.stepWidth, 
 			transform.position.y, 
 			transform.position.z);
 //		if ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat) {

@@ -24,7 +24,19 @@ public class BeatCounter : MonoBehaviour {
 	private float sampleOffset;
 	private float currentSample;
 
-	
+
+	public float CurrentSample {
+		get{
+			return currentSample;
+		}
+	}
+
+	public float SamplePeriod {
+		get{
+			return samplePeriod;
+		}
+	}
+
 	void Awake ()
 	{
 		// Calculate number of samples between each beat.

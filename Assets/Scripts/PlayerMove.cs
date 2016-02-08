@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class PlayerMove : MonoBehaviour {
 
-	float startPosY;
+	float startPosDeltaY;
 
 	CharacterController controller;
 	Vector3 moveDirection = Vector3.zero;
@@ -24,17 +24,23 @@ public class PlayerMove : MonoBehaviour {
 	}
 
 	void Start(){
-		startPosY = transform.position.y;
-		levelGenerator = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
+
 		controller = GetComponent<CharacterController>();
+
+		levelGenerator = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
+
 		bounceHeight = 0; // levelGenerator.stepWidth/2; // bounce height 1/16th;
 		jumpHeight = levelGenerator.stepWidth;
 	}
 
-
+	bool startPosIsSet  = false;
 	void OnTriggerEnter(Collider other) {
 		Debug.Log(other.tag);
  		currentPlatform = other.transform;
+		if(!startPosIsSet){
+			startPosDeltaY = Mathf.Abs( transform.position.y - currentPlatform.position.y );
+			startPosIsSet = true;
+		}
 
 	}
 
@@ -60,7 +66,7 @@ public class PlayerMove : MonoBehaviour {
 
 
 
-			Vector3 offset =  new Vector3(0, levelGenerator.platformHeight + transform.localScale.y, 0);
+			Vector3 offset =  new Vector3(0, 0, 0);
 
 			Vector3 p0 = currentPlatform.transform.position + offset;
 			Vector3 p2 = nextPlatform.transform.position + offset;
@@ -90,7 +96,7 @@ public class PlayerMove : MonoBehaviour {
 //
 //				newPos.y = Mathf.Lerp(centerTop.y, nextPlatform.position.y, t);
 //			}
-//			newPos.y += startPosY; 
+
 
 
 			float range = nextPlatform.position.x - currentPlatform.position.x;
@@ -98,7 +104,7 @@ public class PlayerMove : MonoBehaviour {
 
 			newPos.y = (1-t) * (p0.y)+ 2 * (1-t)*t*(p1.y) + t*t * (p2.y);
 
-
+			newPos.y += startPosDeltaY; 
 
 			transform.position = newPos;
 		}
