@@ -52,7 +52,8 @@ public class LevelGenerator : MonoBehaviour {
 			GameObject platform = GameObject.Instantiate(platformTemplate);
 
 			platform.transform.parent = transform;
-			Vector3 pos = new Vector3(stepWidth * platformBeats[i], 0, 0);
+			Vector3 pos = new Vector3(stepWidth * platformBeats[i], transform.position.y, 0);
+//			Vector3 pos = new Vector3(stepWidth * i, transform.position.y, 0);
 			platform.transform.position = pos;
 			beatObservers.Add(platform);
 			platforms.Add(platform);
