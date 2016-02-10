@@ -1,8 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using SynchronizerData;
+
+
 
 public class LevelGenerator : MonoBehaviour {
 
+	public RhythmSequence[] sequences;
 
 	public float stepWidth { // width of a single beat
 		get{
@@ -25,6 +29,7 @@ public class LevelGenerator : MonoBehaviour {
 	public float beatStep = 4;
 	public float [] platformBeats;
 	public GameObject platformTemplate;
+	public GameObject stageTemplate;
 	public GameObject triggerTemplate;
 
 	BeatCounter beatCounter;
@@ -37,13 +42,22 @@ public class LevelGenerator : MonoBehaviour {
 		beatCounter = GameObject.Find("AudioManager").GetComponent<BeatCounter>();
 		beatObservers = new List<GameObject>();
 		GenerateLevel();
-
+		GenerateSequence();
 		foreach(GameObject go in beatCounter.observers){
 			beatObservers.Add(go);	
 		}
 		beatCounter.observers = beatObservers.ToArray();
 	}
-	
+
+
+	void GenerateSequence(){
+		foreach(RhythmSequence seq in sequences){
+			foreach(float beat in seq.beats){
+				
+			}
+		}
+	}
+
 	// Update is called once per frame
 	void GenerateLevel () {
 	

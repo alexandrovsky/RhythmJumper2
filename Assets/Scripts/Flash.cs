@@ -9,8 +9,8 @@ public class Flash : MonoBehaviour {
 	public float blinkDuration = 30f;	// milliseconds
 
 
-	private Color defaultColor = new Color(0 ,1, 0, 0);
-	private Color activeColor = new Color(1 ,0, 0, 0);
+	private Color defaultColor = new Color(1 ,1, 1, 1);
+	private Color activeColor = new Color(1 ,0, 0, 1);
 
 
 	private BeatObserver beatObserver;

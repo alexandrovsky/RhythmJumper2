@@ -4,8 +4,7 @@ using System.Collections.Generic;
 
 public class PlayerMove : MonoBehaviour {
 	
-	CharacterController controller;
-	Vector3 moveDirection = Vector3.zero;
+
 
 	LevelGenerator levelGenerator;
 
@@ -14,11 +13,16 @@ public class PlayerMove : MonoBehaviour {
 	public float distanceToNextPlaform;
 	public Transform currentPlatform;
 	public Transform nextPlatform;
+	public Animator playerAnimator;
 
-
+	private AudioSource syncAudioSrc;
+	float lastAudioPlayTime = 0;
 	Vector3 p0, p1, p2;
 
+	string animState;
 	Ray ray = new Ray();
+
+
 
 	void OnDrawGizmos() {
 		Gizmos.color = Color.yellow;
@@ -26,10 +30,10 @@ public class PlayerMove : MonoBehaviour {
 	}
 
 	void Start(){
-
-		controller = GetComponent<CharacterController>();
-
 		levelGenerator = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
+		playerAnimator = GetComponentInChildren<Animator>();
+		syncAudioSrc = GameObject.Find("AudioManager").GetComponent<AudioSource>();
+		playerAnimator.SetTrigger("Idle");
 	}
 
 
@@ -39,11 +43,29 @@ public class PlayerMove : MonoBehaviour {
 	}
 
 	void Update() {
+		AnimatorStateInfo animatorInfo = playerAnimator.GetCurrentAnimatorStateInfo(0);
+
+
+
+		if( syncAudioSrc.time == 0 ){
+			if(!animatorInfo.IsName("Idle")){
+				
+			}
+		}else {
+			animState = "Walk";
+		}
+
+
 
 		if(ComputeJumpCurve()){
 			Jump();
 		}
 
+		if(!animatorInfo.IsName(animState)){
+			playerAnimator.SetTrigger(animState);
+		}
+
+		lastAudioPlayTime = syncAudioSrc.time;
 	}
 
 	bool ComputeJumpCurve(){
@@ -64,8 +86,7 @@ public class PlayerMove : MonoBehaviour {
 		Vector3 p = new Vector3(transform.position.x, 
 			currentPlatform.transform.position.y, 
 			currentPlatform.transform.position.z);
-
-
+		
 
 		Vector3 offset =  new Vector3(0, currentPlatform.transform.localScale.y/2, 0);
 
@@ -87,7 +108,13 @@ public class PlayerMove : MonoBehaviour {
 		Debug.DrawLine(p2, p1, Color.red);
 
 			
+		// do animation stuff:
 
+		if(p.x > p0.x && p.x < p1.x){ // in first half of jump:
+			animState = "Jump";
+		}else if(p.x > p1.x && p.x < p2.x){ // in 2nd half of jump:
+			animState = "Fall";
+		}
 
 		return true;
 	}
