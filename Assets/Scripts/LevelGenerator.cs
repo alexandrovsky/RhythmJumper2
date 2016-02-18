@@ -10,7 +10,7 @@ public class LevelGenerator : MonoBehaviour {
 
 	public float stepWidth { // width of a single beat
 		get{
-			return platformWidth; // * beatStep;
+			return platformWidth * beatStep;
 		}
 	}
 	public float platformWidth {
@@ -41,8 +41,8 @@ public class LevelGenerator : MonoBehaviour {
 	void Start () {
 		beatCounter = GameObject.Find("AudioManager").GetComponent<BeatCounter>();
 		beatObservers = new List<GameObject>();
-//		GenerateLevel();
-		GenerateSequences();
+		GenerateLevel();
+//		GenerateSequences();
 		foreach(GameObject go in beatCounter.observers){
 			beatObservers.Add(go);	
 		}
@@ -60,7 +60,7 @@ public class LevelGenerator : MonoBehaviour {
 	void GenerateSequence(RhythmSequence sequence){
 		Debug.Log(sequence.beatValue);
 
-		float length = stepWidth / BeatDecimalValues.values[(int)sequence.beatValue] * sequence.beats.Length;
+		float length = stepWidth; // / BeatDecimalValues.values[(int)sequence.beatValue] * sequence.beats.Length;
 
 		// generate call...
 		float width = platformWidth; // / BeatDecimalValues.values[(int)sequence.beatValue];
