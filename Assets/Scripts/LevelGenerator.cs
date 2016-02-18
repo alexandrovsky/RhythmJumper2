@@ -10,7 +10,7 @@ public class LevelGenerator : MonoBehaviour {
 
 	public float stepWidth { // width of a single beat
 		get{
-			return beatStep * platformWidth * beatStep;
+			return platformWidth; // * beatStep;
 		}
 	}
 	public float platformWidth {
@@ -41,8 +41,8 @@ public class LevelGenerator : MonoBehaviour {
 	void Start () {
 		beatCounter = GameObject.Find("AudioManager").GetComponent<BeatCounter>();
 		beatObservers = new List<GameObject>();
-		GenerateLevel();
-		GenerateSequence();
+//		GenerateLevel();
+		GenerateSequences();
 		foreach(GameObject go in beatCounter.observers){
 			beatObservers.Add(go);	
 		}
@@ -50,12 +50,35 @@ public class LevelGenerator : MonoBehaviour {
 	}
 
 
-	void GenerateSequence(){
+	void GenerateSequences(){
 		foreach(RhythmSequence seq in sequences){
-			foreach(float beat in seq.beats){
-				
+			GenerateSequence(seq);
+		}
+	}
+
+
+	void GenerateSequence(RhythmSequence sequence){
+		Debug.Log(sequence.beatValue);
+
+		float length = stepWidth / BeatDecimalValues.values[(int)sequence.beatValue] * sequence.beats.Length;
+
+		// generate call...
+		float width = platformWidth; // / BeatDecimalValues.values[(int)sequence.beatValue];
+		for(int i = 0; i < sequence.beats.Length; i++){
+			float beat = sequence.beats[i];
+
+			GameObject platform = GameObject.Instantiate(platformTemplate);
+			platform.transform.parent = transform;
+			Vector3 pos = new Vector3(width * i, 
+				transform.position.y, 0);
+			platform.transform.position = pos;
+			beatObservers.Add(platform);
+			if(beat > 0.0f){
+
 			}
 		}
+
+		// generate response....
 	}
 
 	// Update is called once per frame
@@ -81,6 +104,8 @@ public class LevelGenerator : MonoBehaviour {
 		//
 
 	}
+
+
 
 
 }
