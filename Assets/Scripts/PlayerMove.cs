@@ -69,7 +69,7 @@ public class PlayerMove : MonoBehaviour {
 	}
 
 	bool ComputeJumpCurve(){
-		int idx = levelGenerator.platforms.IndexOf(currentPlatform.gameObject);
+		int idx = 0; // levelGenerator.platforms.IndexOf(currentPlatform.gameObject);
 
 		if(idx < 0) {
 			return false;

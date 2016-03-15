@@ -10,6 +10,13 @@ public class BeatSyncMove : MonoBehaviour {
 	private BeatSyncMoveBehaviour moveBehaviour;
 	private LevelGenerator levelGenerator;
 	private AudioSource syncAudioSrc;
+	public Vector3 startPosition;
+
+
+	void Avake(){
+		startPosition = transform.position;
+	}
+
 	void Start () {
 //		beatObserver = GetComponent<BeatObserver>();
 		syncronizer = GameObject.Find("AudioManager").GetComponent<BeatSynchronizer>();
@@ -23,7 +30,7 @@ public class BeatSyncMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float t =  syncAudioSrc.time * syncronizer.bpm/60;
-		transform.position = new Vector3( t * levelGenerator.stepWidth, 
+		transform.position =  new Vector3(startPosition.x + t * levelGenerator.stepWidth, 
 			transform.position.y, 
 			transform.position.z);
 //		if ((beatObserver.beatMask & BeatType.DownBeat) == BeatType.DownBeat) {
