@@ -9,7 +9,6 @@ public class LevelGenerator : MonoBehaviour {
 
 	TileMap map;
 
-	public RhythmSequence[] sequences;
 	public GameObject player;
 	public float stepWidth { // width of a single beat
 		get{
@@ -54,10 +53,14 @@ public class LevelGenerator : MonoBehaviour {
 					if(!tile) continue;
 					switch(tile.tag){
 					case "Start":
-						player = GameObject.Instantiate(player);
+						//player = GameObject.Instantiate(player);
 						player.GetComponent<BeatSyncMove>().startPosition = (Vector3.up * platformHeight/2) + tile.transform.position;
+
+						Camera.main.GetComponent<BeatSyncMove>().startPosition = player.GetComponent<BeatSyncMove>().startPosition;
+
+
 //						Camera.main.GetComponent<FollowCamera>().target = player;
-						Camera.main.transform.parent = player.transform;
+//						Camera.main.transform.parent = player.transform;
 
 						beatObservers.Add(player);
 

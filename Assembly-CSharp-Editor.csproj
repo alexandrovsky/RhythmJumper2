@@ -45,7 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\LevelGeneratorEditor.cs" />
      <Compile Include="Assets\Scripts\BeatSynchronizer\Editor\BeatCounterEditor.cs" />
      <Compile Include="Assets\Scripts\BeatSynchronizer\Editor\PatternCounterEditor.cs" />
      <Compile Include="Assets\Spriter2UnityDX\Editor\AnimationBuilder.cs" />

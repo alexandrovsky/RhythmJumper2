@@ -55,9 +55,12 @@
      <Compile Include="Assets\Scripts\Flash.cs" />
      <Compile Include="Assets\Scripts\FollowCamera.cs" />
      <Compile Include="Assets\Scripts\FpsDisplay.cs" />
+     <Compile Include="Assets\Scripts\JumpVelocityCalculator.cs" />
      <Compile Include="Assets\Scripts\LevelGenerator.cs" />
      <Compile Include="Assets\Scripts\ParallaxBackground.cs" />
      <Compile Include="Assets\Scripts\Platform.cs" />
+     <Compile Include="Assets\Scripts\PlayerDie.cs" />
+     <Compile Include="Assets\Scripts\PlayerJump.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\RhythmSequence.cs" />
      <Compile Include="Assets\Scripts\SceneViewCameraFollower.cs" />
