@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\LevelGenerator.cs" />
      <Compile Include="Assets\Scripts\ParallaxBackground.cs" />
      <Compile Include="Assets\Scripts\Platform.cs" />
+     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
      <Compile Include="Assets\Scripts\PlayerDie.cs" />
      <Compile Include="Assets\Scripts\PlayerJump.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
