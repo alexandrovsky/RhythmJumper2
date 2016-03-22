@@ -18,7 +18,7 @@ public class PlayerAnimation : MonoBehaviour {
 		float speed = (lastPos - transform.position).magnitude;
 
 		anim.SetFloat("Speed", speed);
-		Debug.Log("Speed" + speed);
+//		Debug.Log("Speed" + speed);
 		lastPos = transform.position;
 
 	}

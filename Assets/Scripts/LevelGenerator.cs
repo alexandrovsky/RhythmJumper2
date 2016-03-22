@@ -53,14 +53,8 @@ public class LevelGenerator : MonoBehaviour {
 					if(!tile) continue;
 					switch(tile.tag){
 					case "Start":
-						//player = GameObject.Instantiate(player);
 						player.GetComponent<BeatSyncMove>().startPosition = (Vector3.up * platformHeight/2) + tile.transform.position;
-
 						Camera.main.GetComponent<BeatSyncMove>().startPosition = player.GetComponent<BeatSyncMove>().startPosition;
-
-
-//						Camera.main.GetComponent<FollowCamera>().target = player;
-//						Camera.main.transform.parent = player.transform;
 
 						beatObservers.Add(player);
 
@@ -76,6 +70,7 @@ public class LevelGenerator : MonoBehaviour {
 			beatObservers.Add(go);	
 		}
 		beatCounter.observers = beatObservers.ToArray();
+
 
 	}
 
