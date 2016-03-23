@@ -14,15 +14,18 @@ public class BeatSyncMove : MonoBehaviour {
 
 
 	void Avake(){
-		startPosition = transform.position;
+		
 	}
 
 	void Start () {
+//		transform.position = startPosition;
+		transform.position.Set(startPosition.x, startPosition.y, transform.position.z);
 //		beatObserver = GetComponent<BeatObserver>();
 		syncronizer = GameObject.Find("AudioManager").GetComponent<BeatSynchronizer>();
 		syncAudioSrc = GameObject.Find("AudioManager").GetComponent<AudioSource>();
 //		counter = GameObject.Find("AudioManager").GetComponent<BeatCounter>();
 		levelGenerator = GameObject.Find("LevelGenerator").GetComponent<LevelGenerator>();
+
 
 
 	}

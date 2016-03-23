@@ -4,8 +4,6 @@ using System.Collections;
 public class FollowCamera : MonoBehaviour {
 
 	public float interpVelocity;
-	public float minDistance;
-	public float followDistance;
 	public GameObject target;
 	public Vector3 offset;
 	Vector3 targetPos;
@@ -15,18 +13,30 @@ public class FollowCamera : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void FixedUpdate () {
+	void LateUpdate () {
 		if (target)
 		{
-			Vector3 posNoZ = transform.position;
-			posNoZ.z = target.transform.position.z;
 
-			Vector3 targetDirection = (target.transform.position - posNoZ);
+			Vector3 newPos = new Vector3();
+			newPos.x = target.transform.position.x + offset.x;
+			newPos.z = target.transform.position.z + offset.z;
 
-			interpVelocity = targetDirection.magnitude * 5f;
+			float yDistance = Mathf.Abs(target.transform.position.y - transform.position.y);
 
-			targetPos = transform.position + (targetDirection.normalized * interpVelocity * Time.deltaTime); 
-			transform.position = targetPos + offset; // Vector3.Lerp( transform.position, targetPos + offset, 1);
+			newPos.y = Mathf.Lerp(transform.position.y, target.transform.position.y, interpVelocity * Time.deltaTime);
+
+			transform.position = newPos;
+
+
+//			Vector3 posNoZ = transform.position;
+//			posNoZ.z = target.transform.position.z;
+//
+//			Vector3 targetDirection = (target.transform.position - posNoZ);
+//
+//			interpVelocity = targetDirection.magnitude * 5f;
+//
+//			targetPos = transform.position + (targetDirection.normalized * interpVelocity * Time.deltaTime); 
+//			transform.position = targetPos + offset; // Vector3.Lerp( transform.position, targetPos + offset, 1);
 
 		}
 	}

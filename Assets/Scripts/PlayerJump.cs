@@ -27,6 +27,13 @@ public class PlayerJump : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+
+		Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Default"), LayerMask.NameToLayer("Default"), rb.velocity.y > 0);
+
+		if(Input.GetKey(KeyCode.DownArrow)) {
+			rb.velocity = Vector2.zero;
+		}
+
 		if(isJumping && !doubleJump){
 			if(GetDoubleJumpInput()){
 				doubleJump = true;
@@ -58,7 +65,7 @@ public class PlayerJump : MonoBehaviour {
 	void ApplyJump(){
 		
 		//rb.velocity = Vector2.up * jumpHeight * levelGenerator.platformHeight;
-
+		rb.velocity = Vector2.zero;
 
 		float jumpForce = Mathf.Sqrt(2f * Physics2D.gravity.magnitude * rb.gravityScale * jumpHeight) * rb.mass * 60.0f/syncronizer.bpm;
 		rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
