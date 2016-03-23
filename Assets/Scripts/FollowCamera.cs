@@ -13,17 +13,17 @@ public class FollowCamera : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void LateUpdate () {
+	void Update () {
 		if (target)
 		{
 
 			Vector3 newPos = new Vector3();
 			newPos.x = target.transform.position.x + offset.x;
+//			newPos.y = target.transform.position.y + offset.y;
 			newPos.z = target.transform.position.z + offset.z;
 
 			float yDistance = Mathf.Abs(target.transform.position.y - transform.position.y);
-
-			newPos.y = Mathf.Lerp(transform.position.y, target.transform.position.y, interpVelocity * Time.deltaTime);
+			newPos.y = Mathf.Lerp(transform.position.y, target.transform.position.y + offset.y, interpVelocity * Time.deltaTime);
 
 			transform.position = newPos;
 
