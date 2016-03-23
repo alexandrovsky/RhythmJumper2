@@ -1,0 +1,5973 @@
+fileFormatVersion: 2
+guid: 8dcdaf33996805140be54abf69205c3a
+TextureImporter:
+  fileIDToRecycleName: {}
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 69
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cake
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeCenter
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeCliffleft
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeCliffRight
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHalf
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHalfAlt
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHalfAltLeft
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHalfAltMid
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHalfAltRight
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHalfMid
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHalfRight
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHillLeft
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHillRight
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeHillRight2
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeLeft
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeMid
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cakeRight
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castle
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleCenter
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1974
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleCliffRight
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleHalf
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleHalfMid
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleHalfRight
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleHillLeft
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleHillRight
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleHillRight2
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleLeft
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleMid
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: castleRight
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: choco
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoCenter
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoCliffRight
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHalf
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHalfAlt
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHalfAltLeft
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHalfAltMid
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHalfAltRight
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHalfMid
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1900
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHalfRight
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHillLeft
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHillRight
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoHillRight2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoLeft
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoMid
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chocoRight
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirt
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtCenter
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtCliffRight
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtHalf
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtHalfMid
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtHalfRight
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtHillLeft
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtHillRight
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtHillRight2
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtLeft
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtMid
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: dirtRight
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grass
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1826
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassCenter
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassCliffRight
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassHalf
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassHalfMid
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassHalfRight
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassHillLeft
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassHillRight
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassHillRight2
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassLeft
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassMid
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: grassRight
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceBlock
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceBlockAlt
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceBlockHalf
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceBlockHalfAlt
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceWater
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1752
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceWaterAlt
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1752
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceWaterDeep
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceWaterDeepAlt
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceWaterDeepStars
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceWaterDeepStarsAlt
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1752
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceWaterMid
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceWaterMidAlt
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: liquidLava
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: liquidLavaTop
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: liquidLavaTop_mid
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sand
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandCenter
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandCliffRight
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandHalf
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandHalfMid
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandHalfRight
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandHillLeft
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandHillRight
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandHillRight2
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandLeft
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandMid
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sandRight
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snow
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowCenter
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1678
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowCliffRight
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHalf
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHalfMid
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHalfRight
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHillLeft
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHillRight
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHillRight2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowLeft
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowMid
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowRight
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowBallBigGround
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowGroundLeft
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowGroundRight
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iceTreeDead
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tree
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeBranchesLeft
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowBallGround
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHillHigh
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowHillLow
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowLeftFloor
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowMidFloor
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowRightFloor
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowWave
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1604
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeBranchesLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeBranchesLeftSnowAlt
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeBranchesRight
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeBranchesSnowLeft
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeBranchesSnowRight
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeBranchesSnowRightAlt
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeBranchesSnowRightSnowAlt
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treePineSapling
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treePineSaplingAlt
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTop
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1530
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTopSnow
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1530
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunk
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBottom
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBottomAlt
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBottomAlt2
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBottomAlt3
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBranch
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBranchEndLeft
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBranchEndRight
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBranchLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkBranchRightAlt
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkSplitLeft
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkSplitRight
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: treeTrunkTop
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: igloo
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iglooAlt
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iglooDoor
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1530
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iglooRoof
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iglooRoofLeft
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: iglooRoofRight
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rockAlt
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowBall
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowBallBig
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1457
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikeTop
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1457
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikesBottomAlt
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikesTop
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikesTopAlt
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikesTopAlt2
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stone
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneCenter
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneCliffRight
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneHalf
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneHalfMid
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneHalfRight
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: plant
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: plantAlt
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rockAlt2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikesBottom
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikesBottomAlt2
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1456
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneHillLeft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneHillRight
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneHillRight2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneLeft
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneMid
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneRight
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stoneWall
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundra
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraCenter
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraCenter_rounded
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraCliffLeft
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraCliffLeftAlt
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraCliffRight
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraCliffRightAlt
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraHalf
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraHalfLeft
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraHalfMid
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraHalfRight
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraHillLeft
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraHillLeft2
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraHillRight
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraHillRight2
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraLeft
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraMid
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tundraRight
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: liquidWater
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1382
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: liquidWaterTop
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: liquidWaterTop_mid
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownAltLeft
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownAltMid
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownAltMidAlt
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownAltRight
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownAltSpotsLeft
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownAltSpotsMid
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownAltSpotsMidAlt
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownAltSpotsRight
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownLeft
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownMid
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownMidAlt
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownRight
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownSpotsLeft
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownSpotsMid
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownSpotsMidAlt
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomBrownSpotsRight
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomRedAltLeft
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomRedAltMid
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomRedAltMidAlt
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomRedAltRight
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomRedLeft
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomRedMid
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomRedMidAlt
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomRedRight
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomTanAltLeft
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1308
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomTanAltMid
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomTanAltMidAlt
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomTanAltRight
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomTanLeft
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomTanMid
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomTanMidAlt
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: shroomTanRight
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stem
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stemBase
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stemBaseAlt
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stemCrown
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stemShroom
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stemTop
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stemTopAlt
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: stemVine
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tallShroom_brown
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tallShroom_red
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tallShroom_tan
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: anemometer
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: awningGreen
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: awningGreenRed
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: awningRed
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chimney
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chimneyLow
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tinyShroom_brown
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tinyShroom_red
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1233
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: tinyShroom_tan
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1234
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chimneyThin
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: clock
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: doorKnob
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: doorKnobAlt
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: doorLock
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: doorOpen
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: doorOpenTop
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: doorPlateTop
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: doorTop
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: doorWindowTop
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fenceGate
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fenceLong
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fenceLow
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeige
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeAlt
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeAlt2
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeBottomLeft
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeBottomMid
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeBottomRight
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeMidLeft
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeMidRight
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeTopLeft
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeTopMid
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseBeigeTopRight
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDark
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkAlt
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkAlt2
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1160
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkBottomLeft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkBottomMid
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkBottomRight
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkMidLeft
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkMidRight
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkTopLeft
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkTopMid
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1085
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseDarkTopRight
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGray
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayAlt
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayAlt2
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayBottomLeft
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayBottomMid
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayBottomRight
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayMidLeft
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayMidRight
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayTopLeft
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayTopMid
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: houseGrayTopRight
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rockMoss
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rockMossAlt
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofGreyLeft
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofGreyMid
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofGreyRight
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofGreyTopLeft
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofGreyTopMid
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofGreyTopRight
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1086
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofRedLeft
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofRedMid
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofRedRight
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofRedTopLeft
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofRedTopMid
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofRedTopRight
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofYellowLeft
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofYellowMid
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofYellowRight
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofYellowTopLeft
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofYellowTopMid
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: roofYellowTopRight
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signBed
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signCoin
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signCup
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signHangingBed
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signHangingCoin
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signHangingCup
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: window
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowCheckered
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighBottom
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighCheckeredBottom
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighCheckeredMid
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighCheckeredTop
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighLeadlightBottom
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighLeadlightMid
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighLeadlightTop
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1012
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighMid
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighOpenBottom
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighOpenMid
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighOpenTop
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowHighTop
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowLeadlight
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowLow
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowLowCheckered
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowLowLeadlight
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowLowOpen
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowOpen
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: candyBlue
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: candyGreen
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: candyRed
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: candyYellow
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: canePink
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: canePinkSmall
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: canePinkTop
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: canePinkTopAlt
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cherry
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cookieBrown
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cookieChoco
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cookiePink
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: creamChoco
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: creamMocca
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: creamPink
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: creamVanilla
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 938
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cupCake
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gummyWormGreenEnd
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gummyWormGreenHead
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gummyWormGreenMid
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gummyWormRedEnd
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gummyWormRedHead
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gummyWormRedMid
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: heart
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: hillCaneChoco
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: hillCaneChocoTop
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: hillCaneGreen
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: hillCaneGreenTop
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: hillCanePink
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: hillCanePinkTop
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: hillCaneRed
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: hillCaneRedTop
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopBase
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopBaseBeige
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopBaseBrown
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopBaseCake
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopBasePink
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopFruitGreen
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopFruitRed
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopFruitYellow
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopGreen
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopRed
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopWhiteGreen
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 864
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lollipopWhiteRed
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waffleChoco
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 790
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: wafflePink
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 790
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: waffleWhite
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 790
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: caneGreen
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: caneGreenSmall
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: caneGreenTop
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: caneGreenTopAlt
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: caneRed
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: caneRedSmall
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: caneRedTop
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: caneRedTopAlt
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bridge
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bridgeLogs
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: box
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxAlt
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxCoin
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxCoinAlt
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxCoin_disabled
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxCoinAlt_disabled
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxEmpty
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxExplosive
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxExplosiveAlt
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxExplosive_disabled
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxItem
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxItemAlt
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxItemAlt_disabled
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 790
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxItem_disabled
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: boxWarning
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: brickWall
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: door_closedMid
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: door_closedTop
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: door_openMid
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: door_openTop
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bomb
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bombFlash
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: bush
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: buttonBlue
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: buttonBlue_pressed
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: buttonGreen
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: buttonGreen_pressed
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: buttonRed
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: buttonRed_pressed
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: buttonYellow
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: buttonYellow_pressed
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: cactus
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: chain
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 717
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: coinBronze
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 717
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: coinSilver
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 717
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fireBall
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 717
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagBlue
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagBlue2
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 716
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagBlueHanging
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 716
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagGreen
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 642
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagGreen2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagGreenHanging
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagRed
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 642
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagRed2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagRedHanging
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagYellow
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 642
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagYellow2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: flagYellowHanging
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: particleBrick1a
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: particleBrick1b
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: particleBrick2a
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: particleBrick2b
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gemBlue
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gemGreen
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gemRed
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: gemYellow
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: keyBlue
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: keyGreen
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: keyRed
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: keyYellow
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mushroomBrown
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mushroomRed
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: plantGreen
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: plantPurple
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rock
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: snowhill
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 642
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spikes
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: springboardDown
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: springboardUp
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: star
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: switchLeft
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: switchMid
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: switchRight
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: weight
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: weightChained
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fence
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: fenceBroken
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ladder_mid
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ladderTop
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lockBlue
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lockGreen
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lockRed
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lockYellow
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: sign
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signExit
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signLeft
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: signRight
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 568
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: torchLit
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: torchLit2
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: torch
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: windowAlt
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 570
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: coinGold
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 717
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

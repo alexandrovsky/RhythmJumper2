@@ -99,6 +99,7 @@ public class BeatCounter : MonoBehaviour {
 	IEnumerator BeatCheck ()
 	{
 		while (audioSource.isPlaying) {
+			
 			currentSample = (float)AudioSettings.dspTime * audioSource.clip.frequency;
 			
 			if (currentSample >= (nextBeatSample + sampleOffset)) {
